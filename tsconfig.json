@@ -1,0 +1,32 @@
+{
+    // https://nuxt.com/docs/guide/concepts/typescript
+    "files": [],
+    "references": [
+        {
+            "path": "./.nuxt/tsconfig.app.json"
+        },
+        {
+            "path": "./.nuxt/tsconfig.server.json"
+        },
+        {
+            "path": "./.nuxt/tsconfig.shared.json"
+        },
+        {
+            "path": "./.nuxt/tsconfig.node.json"
+        }
+    ],
+    
+    "compilerOptions": {
+        // Active TOUTES les vérifications TypeScript strictes
+        // (null safety, type checking, etc.)
+        "strict": true,
+        
+        // Requis par les projets Nuxt
+        "moduleResolution": "bundler",
+        
+        // Important pour avoir de bons types Vue
+        "allowJs": false,
+        "noImplicitAny": true,
+        "strictNullChecks": true
+    }
+}

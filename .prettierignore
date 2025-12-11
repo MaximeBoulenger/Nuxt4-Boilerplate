@@ -1,0 +1,5 @@
+# Fichiers inutiles à formatter
+node_modules
+dist
+.nuxt
+*.log
