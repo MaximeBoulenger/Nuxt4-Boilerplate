@@ -9,7 +9,7 @@
         "lint:fix": "eslint . --ext .ts,.js,.vue --fix",
         "format": "prettier --write .",
         "format:check": "prettier --check .",
-        "typecheck": "nuxi typecheck",
+        "typecheck": "bunx nuxi typecheck",
         "test": "vitest",
         "test:ui": "vitest --ui",
         "prepare": "husky"
