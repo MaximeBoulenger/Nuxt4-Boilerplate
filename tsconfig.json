@@ -17,16 +17,17 @@
     ],
     
     "compilerOptions": {
-        // Active TOUTES les vérifications TypeScript strictes
-        // (null safety, type checking, etc.)
-        "strict": true,
-        
-        // Requis par les projets Nuxt
+        "target": "ESNext",
+        "module": "ESNext",
         "moduleResolution": "bundler",
         
-        // Important pour avoir de bons types Vue
-        "allowJs": false,
-        "noImplicitAny": true,
-        "strictNullChecks": true
+        "strict": true,
+        "skipLibCheck": true,
+        "noEmit": true,
+        
+        "jsx": "preserve",
+        "allowJs": true,
+        
+        "types": ["node"]
     }
 }
