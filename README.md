@@ -1,4 +1,5 @@
 # Nuxt4-Boilerplate
+
 ![CI](https://github.com/MaximeBoulenger/Nuxt4-Boilerplate/actions/workflows/ci.yml/badge.svg)
 
 Ce projet est un boilerplate Nuxt 4 moderne conçu pour démarrer rapidement avec une excellente developer experience, une qualité de code stricte et une CI fiable. Il combine un framework full-stack performant, un outillage de lint/format automatisé, des tests intégrés et des garde-fous (Husky + CI) afin d’éviter toute régression dès les premiers commits.
