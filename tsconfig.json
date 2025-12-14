@@ -15,19 +15,19 @@
             "path": "./.nuxt/tsconfig.node.json"
         }
     ],
-    
+
     "compilerOptions": {
         "target": "ESNext",
         "module": "ESNext",
         "moduleResolution": "bundler",
-        
+
         "strict": true,
         "skipLibCheck": true,
         "noEmit": true,
-        
+
         "jsx": "preserve",
         "allowJs": true,
-        
+
         "types": ["node"]
     }
 }

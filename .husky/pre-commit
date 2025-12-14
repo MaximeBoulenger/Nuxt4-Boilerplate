@@ -1,0 +1,16 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔍 ESLint..."
+bun run lint || exit 1
+
+echo "🎨 Prettier check..."
+bun run format:check || exit 1
+
+echo "🧠 TypeScript typecheck..."
+bun run typecheck || exit 1
+
+echo "🧪 Vitest..."
+bun test --run || exit 1
+
+echo "✅ Pre-commit checks passed"
